@@ -1,0 +1,9 @@
+/* A real phone capture makes device support visible without adding another section. */
+.device-pair{position:relative;padding-right:9%;margin-bottom:26px}
+.device-pair .tablet{width:100%}
+.hero-phone{display:block;position:absolute;right:0;bottom:-14px;width:21%;padding:6px;background:#191919;border-radius:20px;box-shadow:0 11px 22px #00000026;cursor:zoom-in;line-height:0}
+.hero-phone-screen{display:block;overflow:hidden;border-radius:14px;background:#f7f8f3}
+.hero-phone img{display:block;width:100%;height:auto;aspect-ratio:600/1230;object-fit:contain}
+.devices-note{font-size:11px;color:#646b70;line-height:1.6;margin:0}
+.hero-stage .hero-sampler{margin-top:21px}
+@media(max-width:760px){.device-pair{padding-right:11%;margin-bottom:23px}.hero-phone{width:23%;padding:4px;border-radius:12px;bottom:-10px;box-shadow:0 7px 15px #00000026}.hero-phone-screen{border-radius:8px}.devices-note{font-size:10px}.hero-stage .hero-sampler{margin-top:18px}}
